@@ -2,3 +2,4 @@ A test file to show how fetch and pull works
 Now an additional change to have another commit
 Yet another change to demonstrate pull
 And now we demonstrate push
+Ich mache ne Änderung
