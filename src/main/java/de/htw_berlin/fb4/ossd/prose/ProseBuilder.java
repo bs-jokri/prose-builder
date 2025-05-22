@@ -26,6 +26,11 @@ public class ProseBuilder implements Prose {
         sentences.forEach(x -> {builder.append(x.get()); builder.append("\n");});
         return builder.toString();
     }
+//    gib zurück, wenn noch keine Sätze vorhanden
+    public boolean isEmpty() {
+        return sentences.isEmpty();
+    }
+
 
     @Override
     public String get() {
