@@ -1,1 +1,1 @@
-"A short story about AI that writes poems." 
+"A short story about idk." 
