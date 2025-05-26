@@ -1,0 +1,7 @@
+Title: Coffee Break
+
+It was exactly 2:47 PM when I realized the code still didn’t work.
+
+I stared at the screen for a moment and got up to make another coffee.
+
+Maybe the answer was in the break, not the debugger.
