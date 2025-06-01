@@ -24,6 +24,11 @@ public class ProseBuilder implements Prose {
     public String build(){
         StringBuilder builder = new StringBuilder();
         sentences.forEach(x -> {builder.append(x.get()); builder.append("\n");});
+        if(this.sentences.size() == 1) {
+            builder.append(this.sentences.size() + " Satz wurde hinzugefügt.\n");
+        } else {
+            builder.append(this.sentences.size() + " Sätze wurden hinzugefügt.\n");
+        }
         return builder.toString();
     }
 

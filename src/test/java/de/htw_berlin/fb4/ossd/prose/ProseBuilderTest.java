@@ -13,10 +13,10 @@ public class ProseBuilderTest extends TestCase {
 
         proseBuilder.register(sentence1);
         String result1 = proseBuilder.get();
-        Assert.assertEquals("Test1\n", result1);
+        Assert.assertEquals("Test1\n1 Satz wurde hinzugefügt.\n", result1);
 
         proseBuilder.register(sentence2);
         String result2 = proseBuilder.get();
-        Assert.assertEquals("Test1\nTest2\n", result2);
+        Assert.assertEquals("Test1\nTest2\n2 Sätze wurden hinzugefügt.\n", result2);
     }
 }
