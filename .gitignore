@@ -1,1 +1,19 @@
-Addgitignore für java Projekt
+Add gitignore für java Projekt.
+# Java class files
+*.class
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+
+# Eclipse / IntelliJ
+*.iml
+.idea/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
