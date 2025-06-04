@@ -11,7 +11,7 @@ Only the latest version of *Prose Builder* is supported with security updates.
 If you discover a security issue, *please do NOT create a public issue*.  
 Instead, report it privately by contacting:
 
-📧 *your-email@example.com*  
+📧 aswadrawan@gmail.com  
 (Replace with your real email if applicable)
 
 Please include:
