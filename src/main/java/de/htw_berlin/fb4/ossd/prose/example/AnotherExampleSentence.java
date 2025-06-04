@@ -1,9 +1,7 @@
-/* SPDX-FileCopyrightText: 2025 Damaris Liedtke
- *
- * See the NOTICE file(s) distributed with this work for additional
- * information regarding copyright ownership.
- *
- *  SPDX-License-Identifier: MIT
+/*
+ * Copyright (c) 2025 Johannes Kristan
+ * SPDX-License-Identifier: MIT
+ * See the LICENSE file in the root directory for more information.
  */
 package de.htw_berlin.fb4.ossd.prose.example;
 
