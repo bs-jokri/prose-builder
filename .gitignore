@@ -1,7 +1,17 @@
-# Created by https://www.toptal.com/developers/gitignore/api/maven
-# Edit at https://www.toptal.com/developers/gitignore?templates=maven
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
 
-### Maven ###
+# Java
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+*.log
+
+# Maven
 target/
 pom.xml.tag
 pom.xml.releaseBackup
@@ -11,13 +21,20 @@ release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
-# https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
 
-# Eclipse m2e generated files
-# Eclipse Core
-.project
-# JDT-specific (Eclipse Java Development Tools)
-.classpath
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
 
-# End of https://www.toptal.com/developers/gitignore/api/maven
+# Eclipse
+.project
+.classpath
+.csettings/
+.settings/
+bin/
+
+# VS Code
+.vscode/
