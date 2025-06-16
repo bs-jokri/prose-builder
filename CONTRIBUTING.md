@@ -1,64 +1,44 @@
-# Beitrag leisten zu my-prose
+# Beiträge zum Prose Builder
 
-Danke, dass du mithelfen möchtest!
+Vielen Dank, dass du dich für eine Mitarbeit an diesem Projekt interessierst! 
+Beiträge jeglicher Art sind willkommen.
 
-## Code-Stil
+## Coding Style
 
-- Verwende CamelCase für Methoden- und Klassennamen
-- 4 Leerzeichen Einrückung
-- Dokumentiere Funktionen mit Javadoc
+- Folge den bestehenden Java-Coding-Konventionen.
+- Verwende aussagekräftige Variablen- und Methodennamen.
+- Schreibe klare und prägnante Kommentare, wo nötig.
+- Stelle sicher, dass dein Code kompiliert und alle Tests bestanden werden, bevor du 
+ihn einreichst.
 
-## Pull Requests
+## Wie du beitragen kannst
 
-1. Forke das Repo
-2. Erstelle einen Branch: `feature/dein-feature`
-3. Schreibe 
-4. Eröffne einen Pull Request
+1. Forke das Repository.
+2. Erstelle einen neuen Branch für dein Feature oder deinen Bugfix.
+3. Nimm deine Änderungen im neuen Branch vor.
+4. Schreibe aussagekräftige Commit-Nachrichten.
+5. Pushe deinen Branch zu deinem Fork.
+6. Öffne einen Pull Request gegen den Branch `main`.
+7. Beschreibe deine Änderungen im PR klar und verständlich.
+8. Reagiere auf Review-Kommentare und nimm gegebenenfalls Anpassungen vor.
 
-Bitte beachte auch den [Code of Conduct](CODE_OF_CONDUCT.md).
-Natürlich! Hier ist die README auf Deutsch:
+## Pull Request Prozess
 
-````markdown
-# Prose Builder
+- Pull Requests sollten sich auf eine logische Änderung konzentrieren.
+- Füge Tests hinzu, wenn möglich.
+- Achte darauf, dass keine unnötigen Dateien enthalten sind.
+- Wir verwenden interaktives Rebase, um die Commit-Historie vor dem Mergen 
+aufzuräumen.
+- Bitte habe Geduld während des Review-Prozesses; Feedback hilft, das Projekt zu 
+verbessern!
 
-Prose Builder ist eine Java-Bibliothek, die Entwicklern dabei hilft, Prosa-Text programmatisch zu erstellen, zu 
-bearbeiten und zu strukturieren. Sie bietet Klassen und Schnittstellen, um Sätze, einfache Sätze und komplexere 
-Textstrukturen einfach aufzubauen.
+## Verhaltenskodex
 
-## Funktionen
+Dieses Projekt hält sich an den [Contributor Covenant Code of 
+Conduct](CODE_OF_CONDUCT.md). Mit deiner Teilnahme erklärst du dich damit 
+einverstanden, alle Mitwirkenden respektvoll zu behandeln.
 
-- Erstellen und Verwalten von einzelnen Sätzen oder Textblöcken.
-- Einfache Konstruktion von Beispielgeschichten oder Prosa-Abschnitten.
-- Saubere API zum Aufbau von natürlichsprachlichen Elementen im Code.
-- Unterstützung zur Erweiterung von Textstrukturen mit eigenen Implementierungen.
+---
 
-## Erste Schritte
-
-### Voraussetzungen
-
-- Java 8 oder höher
-- Maven (zum Bauen des Projekts)
-
-### Installation
-
-Repository klonen:
-
-```bash
-git clone https://g^ithub.com/YourUsername/prose-builder.git
-cd prose-builder
-mvn clean install
-````
-
-## Beispielgeschichten
-
-Das Projekt enthält Beispielgeschichten im Verzeichnis `samples`, z.B. `coffee_break.txt`, die zeigen, wie man 
-die Bibliothek zum Erstellen von Textnarrativen nutzen kann.
-
-## Mitwirken
-
-Beiträge sind willkommen! Bitte öffne Pull Requests oder Issues für Verbesserungen oder Fehlerbehebungen.
-
-## Lizenz
-
-Dieses Projekt steht unter der GPL 3.0.
+Vielen Dank, dass du den Prose Builder verbesserst!
 
