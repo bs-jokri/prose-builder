@@ -12,6 +12,7 @@ Klonen und mit Maven bauen:
 git clone https://github.com/QuyNyHoang/prose-builder.git
 cd prose-builder
 mvn clean install
+```
 
 ## Verwendung
 
