@@ -1,0 +1,28 @@
+# Notices for the ProseBuilder
+
+This content is produced and maintained by Svetlana Brumm (in Anleitung von Dozent Johannes Kristan).
+
+* Project home: https://github.com/bs-jokri/prose-builder
+
+my-prose-builder - ein Übungsprojekt
+Copyright 2025 Svetlana Brumm
+
+# Information über die Lizenz
+
+Dieses Projekt steht unter der MIT-Lizenz. Weitere Informstionen finden Sie in der Datei LICENSE
+[my-prose-builder] (/LICENSE)
+
+
+## Source Code
+
+[my-prose-builder] (/scr)
+
+## Kryptografie-Hinweis:
+
+Dieses Projekt verwendet grundlegende kryptografische Funktionen zur Demonstration.
+
+
+Die kryptografischen Funktionen dienen ausschließlich zu Lernzwecken und sind nicht für produktive Sicherheitsanwendungen geeignet.
+
+
+
