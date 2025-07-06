@@ -7,7 +7,7 @@ Prose Builder provides a flexible way to construct text content by registering a
 
 ## Features
 - Build text content by registering individual sentences
-- Automatic line break handling between sentences
+- Automatically handles line breaks between sentences
 - Simple interface-based design with `Prose` and `Sentence` interfaces
 
 
