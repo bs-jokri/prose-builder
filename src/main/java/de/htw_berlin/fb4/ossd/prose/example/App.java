@@ -9,6 +9,8 @@ package de.htw_berlin.fb4.ossd.prose.example;
 
 import de.htw_berlin.fb4.ossd.prose.ProseBuilder;
 import de.htw_berlin.fb4.ossd.prose.Sentence;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 /**
  * Hello world!
@@ -16,6 +18,8 @@ import de.htw_berlin.fb4.ossd.prose.Sentence;
  */
 public class App
 {
+    private static final Logger logger = LogManager.getLogger(App.class);
+
     public static void main( String[] args )
     {
 
@@ -25,6 +29,7 @@ public class App
         builder.register(s1);
         builder.register(new ExampleSentence());
         String result = builder.get();
-        System.out.println( result);
+
+        logger.info(result);
     }
 }
